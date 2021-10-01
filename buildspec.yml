@@ -11,4 +11,5 @@ phases:
       - docker build -t app:latest .
 artifacts:
   files:
+    - 'Dockerfile'
     - target/CICDUserApp-0.0.1-SNAPSHOT.jar
